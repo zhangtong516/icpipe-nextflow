@@ -1,5 +1,5 @@
 /*
- * File: icShape_original.nd
+ * File: icShape_pipe.nf
  * Created: Wednesday, 2nd December 2020 1:56:21 pm
  * Author: Zhang Tong (zhangtong516@gmail.com)
  * -----
@@ -14,7 +14,7 @@ params.help = false
 def helpMessage() {
     log.info"""
     The typical command for running the pipeline is as follows:
-    nextflow run ${baseDir}/icshape_RT.nf --sampleinfo <> --designinfo <> --batchName <>
+    nextflow run ${baseDir}/icshape_RT.nf --sampleinfo <> --batchName <>
     example:
         cd WORKING_DIR
         nextflow run ${baseDir}/icshape_RT.nf --batchName batch1 --sampleInfo RHN1259.sample.tsv
@@ -33,7 +33,7 @@ if (params.help){
 if (params.containsKey('batchName') && params.batchName){
     params.outDir = "results/icSHAPE_pipe/" + params.batchName
 } else {
-    exit 1, "[Pipeline error] Please specify your design info file using `--batchName`!\n"
+    exit 1, "[Pipeline error] Please specify your comparisonBatch using `--batchName`!\n"
 }
 
 // sample info file

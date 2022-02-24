@@ -1,0 +1,13 @@
+sampleName      treatment       batch   rep     libID   barcode file    fq      seqBatch        comparisonBatch
+PARTR1  DMSO    RHH8567 rep1    RHH8567Lib1     ATCACG  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib1.gz batch1  batch6
+PARTR1  NAIN3   RHH8567 rep1    RHH8567Lib2     CGATGT  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib2.gz batch1  batch6
+Met167  DMSO    RHH8567 rep1    RHH8567Lib3     TTAGGC  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib3.gz batch1  batch6
+Met167  NAIN3   RHH8567 rep1    RHH8567Lib4     TGACCA  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib4.gz batch1  batch6
+Met168  DMSO    RHH8567 rep1    RHH8567Lib5     ACAGTG  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib5.gz batch1  batch6
+Met168  NAIN3   RHH8567 rep1    RHH8567Lib6     GCCAAT  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib6.gz batch1  batch6
+PARTR1  DMSO    RHH8567 rep2    RHH8567Lib11    GGCTAC  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib11.gz        batch1  batch6
+PARTR1  NAIN3   RHH8567 rep2    RHH8567Lib12    CTTGTA  na      /mnt/projects/wenm/rnaStructure/bowen_stress_compartment/raw_reads/RHH8567.split/RHH8567Lib12.gz        batch1  batch6
+Met167  DMSO    RHH8637 rep2    RHH8637Lib1     TTAGGC  na      /mnt/projects/limjaj/projects/icSHAPE_01_Nov_2021_bowen_CRC/00.raw_reads/RHH8637Lib1.fq batch1  batch6
+Met167  NAIN3   RHH8637 rep2    RHH8637Lib2     7GACCA  na      /mnt/projects/limjaj/projects/icSHAPE_01_Nov_2021_bowen_CRC/00.raw_reads/RHH8637Lib2.fq batch1  batch6
+Met168  DMSO    RHH8637 rep2    RHH8637Lib3     ACAGTG  na      /mnt/projects/limjaj/projects/icSHAPE_01_Nov_2021_bowen_CRC/00.raw_reads/RHH8637Lib3.fq batch1  batch6
+Met168  NAIN3   RHH8637 rep2    RHH8637Lib4     GCCAAT  na      /mnt/projects/limjaj/projects/icSHAPE_01_Nov_2021_bowen_CRC/00.raw_reads/RHH8637Lib4.fq batch1  batch6
